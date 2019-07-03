@@ -11,9 +11,9 @@ month=input('Enter the month:')
 date=(input('Enter the date:'))
 
 #Opening csv files
-f1=open("C:\\Users\\Sahas\\Desktop\\3_test.csv")
+f1=open("C:\\*path along with file name you want to create*")
 csv_f1=csv.reader(f1)
-f2=open("C:\\Users\\Sahas\\Desktop\\TotalStudentData_17th oct 2014_csv_v1.csv")
+f2=open("C:\\*database excel location*")
 csv_f2=csv.reader(f2)
 
 #Extracting registration numbers
