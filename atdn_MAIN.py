@@ -3,7 +3,7 @@ import datetime
 import cryptography
 import atnd_GUI.py
 now=datetime.datetime.now()
-db=pymysql.connect(host='localhost',user='root',password='sahas',db='login')
+db=pymysql.connect(host='localhost',user='root',password='*******',db='********')
 cursor=db.cursor();
 print("USER LOGIN");
 t=input("Enter your name:")
